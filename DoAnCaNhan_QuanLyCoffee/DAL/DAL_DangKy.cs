@@ -18,6 +18,7 @@ namespace DoAnCaNhan_QuanLyCoffee.DAL
         {
             String sqlGetAcc =$"select count(*) from dataLogin where account = '{acc}'";
             return (int)provider.Scalar(sqlGetAcc);
+            //Vũ
         }
     }
 }
